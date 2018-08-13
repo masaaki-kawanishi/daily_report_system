@@ -29,4 +29,7 @@
     <servlet-name>EmployeesNewServlet</servlet-name>
     <url-pattern>/employees/new</url-pattern>
   </servlet-mapping>
+  <listener>
+    <listener-class>listeners.PropertiesListener</listener-class>
+  </listener>
 </web-app>
