@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>EmployeesIndexServlet</display-name>
+    <servlet-name>EmployeesIndexServlet</servlet-name>
+    <servlet-class>controllers.employees.EmployeesIndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmployeesIndexServlet</servlet-name>
+    <url-pattern>/employees/index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmployeesNewServlet</display-name>
+    <servlet-name>EmployeesNewServlet</servlet-name>
+    <servlet-class>controllers.employees.EmployeesNewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmployeesNewServlet</servlet-name>
+    <url-pattern>/employees/new</url-pattern>
+  </servlet-mapping>
 </web-app>
